@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Basic S3 Demo
+Resources:
+  S3user01:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    Properties:
+      AccessControl: PublicRead
+Outputs:
+  BucketName:
+    Value: !Ref S3user01
+    Description: Demo S3 Bucket
