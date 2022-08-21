@@ -19,10 +19,10 @@
         "t2.small", 
         "t2.medium", 
         "t2.large",
-	"t3.nano",
-	"t3.micro",
-	"t3.small",
-	"t3.medium"
+        "t3.nano",
+        "t3.micro",
+        "t3.small",
+        "t3.medium"
           ],
       "ConstraintDescription" : "must be a valid EC2 instance type."
     },
